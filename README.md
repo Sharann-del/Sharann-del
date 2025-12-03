@@ -1,16 +1,21 @@
-## Hi there 👋
+# Hi there 👋
 
-<!--
-**Sharann-del/Sharann-del** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Sharan, an iOS & web developer exploring SwiftUI, Xcode, and full-stack development.
 
-Here are some ideas to get you started:
+### 🚀 What I’m building
+- Productivity-focused iOS apps (Notion Widgets, Task systems)
+- Dynamic web apps & dashboards
+- Experimenting with APIs, widgets, and Framer
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ Tech I use
+- SwiftUI • Xcode • JavaScript • TypeScript • React • Node
+- PostgreSQL • Supabase • REST APIs
+
+### 📌 Current Goals
+- Publishing my first iOS app
+- Expanding my dev portfolio
+- Building tools that save time
+
+### 📫 Connect with me
+- Portfolio: yourlink.com
+- LinkedIn: linkedin.com/in/sharann-del
