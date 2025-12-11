@@ -1,6 +1,6 @@
 # Hi there 👋
 
-I'm Sharan, an iOS & web developer exploring SwiftUI, Xcode, and full-stack development.
+I'm Sharann, an iOS & web developer exploring SwiftUI, Xcode, and full-stack development.
 
 ### 🚀 What I’m building
 - Productivity-focused iOS apps (Notion Widgets, Task systems)
