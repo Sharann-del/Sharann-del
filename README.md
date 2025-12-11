@@ -17,5 +17,5 @@ I'm Sharan, an iOS & web developer exploring SwiftUI, Xcode, and full-stack deve
 - Building tools that save time
 
 ### 📫 Connect with me
-- Portfolio:
+- Portfolio: sharann.dev
 - LinkedIn: linkedin.com/in/sharann-del
