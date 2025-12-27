@@ -19,10 +19,10 @@ I enjoy building products from the ground up — from **idea → architecture �
 
 ## What I’m Working On
 
-- 📱 **iOS apps** using SwiftUI (widgets, planners, task systems)
-- 🌐 **Web dashboards & tools** with React, TypeScript, and APIs
-- 🧠 Exploring advanced UI patterns, animations, and state management
-- 🧩 Designing reusable systems rather than one-off features
+- **iOS apps** using SwiftUI (widgets, planners, task systems)
+- **Web dashboards & tools** with React, TypeScript, and APIs
+- Exploring advanced UI patterns, animations, and state management
+- Designing reusable systems rather than one-off features
 
 
 ## Tech Stack
@@ -43,11 +43,6 @@ I enjoy building products from the ground up — from **idea → architecture �
 
 ## Current Goals
 
-- 🚀 Publish my first production-ready iOS app
-- 🧱 Build a strong, high-quality developer portfolio
-- ⚙️ Create tools that genuinely save time and reduce friction
-
-## Let’s Connect
-
-- 🌍 Portfolio: **https://sharann.dev**
-- 💼 LinkedIn: **https://linkedin.com/in/sharann-del**
+- Publish my first production-ready iOS app
+- Build a strong, high-quality developer portfolio
+- Create tools that genuinely save time and reduce friction
