@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://sharann.dev">Portfolio</a> •
-  <a href="https://linkedin.com/in/sharann-del">LinkedIn</a>
+  <a href="https://linkedin.com/in/sharannm">LinkedIn</a>
 </p>
 
 ## About Me
