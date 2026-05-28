@@ -1,7 +1,7 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=56&duration=1&pause=999999&color=FFFFFF&center=true&vCenter=true&width=900&height=90&lines=SHARANN+MANOJKUMAR">
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=56&duration=1&pause=999999&color=FFFFFF&center=true&vCenter=true&width=900&height=70&lines=SHARANN+MANOJKUMAR">
   <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=56&duration=1&pause=999999&color=111111&center=true&vCenter=true&width=900&height=90&lines=SHARANN+MANOJKUMAR">
 </picture>
 
@@ -12,9 +12,9 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/sharann.dev-000000?style=for-the-badge&logoColor=white)](https://sharann.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sharannm)
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logoColor=white)](https://github.com/Sharann-del)
+[![Portfolio](https://img.shields.io/badge/sharann.dev-555555?style=for-the-badge&logoColor=white)](https://sharann.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-555555?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sharannm)
+[![GitHub](https://img.shields.io/badge/GitHub-555555?style=for-the-badge&logoColor=white)](https://github.com/Sharann-del)
 
 </div>
 
