@@ -22,10 +22,10 @@
 
       /* ── light mode overrides ── */
       @media (prefers-color-scheme: light) {
-        .bg-window   { fill: #f5f5f0; }
-        .bg-titlebar { fill: #e8e8e3; }
-        .border      { stroke: #c8c8c2; }
-        .dot         { stroke: #a8a8a2; }
+        .bg-window   { fill: #f7f7f8; }
+        .bg-titlebar { fill: #ebebed; }
+        .border      { stroke: #d0d0d4; }
+        .dot         { stroke: #b0b0b6; }
         .dim         { fill: #888882; }
         .fg          { fill: #1a1a1e; }
         .ok          { fill: #1a1a1e; }
