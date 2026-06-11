@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1000 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Now: third-year CS student at VIT Chennai, building full-stack and iOS apps, open to internships">
+  <style>
+    :root { --bone: #1A1A1A; --rule: #D1D1D1; --accent: #0D0D0D; }
+    @media (prefers-color-scheme: dark) { :root { --bone: #EFEFEF; --rule: #2E2E2E; --accent: #FFFFFF; } }
+    .mono { font-family: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif; }
+    .belt { animation: belt 36s linear infinite; }
+    @keyframes belt { from{transform:translateX(0)} to{transform:translateX(-1560px)} }
+    .dot { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.25} }
+    @media (prefers-reduced-motion: reduce) { .belt,.dot { animation: none; } }
+    .lf { display: block; } .df { display: none; }
+    @media (prefers-color-scheme: dark) { .lf { display: none; } .df { display: block; } }
+  </style>
+  <line x1="0" y1="0.5" x2="1000" y2="0.5" stroke="var(--rule)"/>
+  <line x1="0" y1="63.5" x2="1000" y2="63.5" stroke="var(--rule)"/>
+  <g class="belt">
+    <text class="mono" x="60" y="38" font-size="13" letter-spacing="2">
+      <tspan fill="var(--accent)">NOW&#160;&#160;&#9656;&#160;&#160;</tspan><tspan fill="var(--bone)">3RD-YEAR CS @ VIT CHENNAI</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">iOS &amp; FULL-STACK DEVELOPER</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">ISPACE CLUB — WEB &amp; APP DEV</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">OPEN TO INTERNSHIPS &amp; COLLABORATION</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="mono" x="1620" y="38" font-size="13" letter-spacing="2">
+      <tspan fill="var(--accent)">NOW&#160;&#160;&#9656;&#160;&#160;</tspan><tspan fill="var(--bone)">3RD-YEAR CS @ VIT CHENNAI</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">iOS &amp; FULL-STACK DEVELOPER</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">ISPACE CLUB — WEB &amp; APP DEV</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--bone)">OPEN TO INTERNSHIPS &amp; COLLABORATION</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan>
+    </text>
+  </g>
+  <defs>
+    <linearGradient id="lm-l" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="lm-d" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#000000" stop-opacity="1"/><stop offset="1" stop-color="#000000" stop-opacity="0"/></linearGradient>
+    <mask id="ml"><rect width="52" height="64" fill="url(#lm-l)"/></mask>
+    <mask id="md"><rect width="52" height="64" fill="url(#lm-d)"/></mask>
+  </defs>
+  <rect width="52" height="64" mask="url(#ml)" fill="#FFFFFF" class="lf"/>
+  <rect width="52" height="64" mask="url(#md)" fill="#000000" class="df"/>
+  <circle class="dot" cx="24" cy="32" r="4" fill="var(--accent)"/>
+</svg>
