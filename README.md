@@ -12,27 +12,25 @@
 
 ![01 — whoami](assets/s01.svg)
 
-I build software at the intersection of **design and data** — native SwiftUI apps, full-stack systems on PostgreSQL, and terminal interfaces that feel better than most GUIs. The throughline: tools that turn personal chaos into structure. Keyboard-first. Always dark mode.
+I'm a third-year Computer Science student at **Vellore Institute of Technology, Chennai**, building across the full stack — SwiftUI interfaces, React frontends, PostgreSQL schemas, Node.js backends, and CLI tooling that runs entirely in the terminal.
 
-CS @ **VIT Chennai** · '24–'28 — currently doing **AI hallucination–suppression research** (SRIP 2026) while shipping side projects faster than I can name them. Also interning at **Ericsson**. Open-source contributor to [**MonkeyType**](https://github.com/monkeytypegame/monkeytype). Member of the **iSpace Club** web/app dev department.
+Drawn to projects where **design meets data** — keyboard-driven personal operating systems, drone-powered land analytics, AI terminal assistants. Clean architecture and user experience in equal measure.
 
 ```text
-focus     iOS & Mobile · Full-Stack Systems · Terminal UI / CLI · AI-native architecture
-research  hallucination suppression in LLMs — SRIP 2026, VIT Chennai
+focus     iOS & Mobile · Full-Stack Systems · Terminal UI / CLI · AI-integrated architectures
 status    open to internships, freelance, and collaboration
+clubs     iSpace Club — Web & App Development department
 ```
 
 ![02 — system map](assets/s02.svg)
 
-Twelve projects, four platforms, one pipeline. Every node below is a real, working system — dashed lines are data in motion.
+Nine projects, four platforms, one pipeline. Every node is a real, working system.
 
 ![System map](assets/ecosystem.svg)
 
 ![now](assets/now.svg)
 
 ![03 — projects](assets/s03.svg)
-
-Every project below. No filtering, no collapsing.
 
 <br>
 
@@ -42,7 +40,7 @@ Every project below. No filtering, no collapsing.
 
 ### Kern
 **A keyboard-driven personal data OS.**
-Schema-free JSONB storage, Monaco editor views, live integrations (GitHub · Notion · Calendar · Linear · RSS) — and its own **MCP server**, so AI can read and write your data natively.
+Schema-free JSONB storage, Monaco editor views, live integrations with GitHub, Notion, Calendar, Linear, and RSS feeds. Ships an MCP server for AI interaction with your personal data.
 
 `React` `TypeScript` `PostgreSQL` `Supabase` `MCP`
 
@@ -53,7 +51,7 @@ Schema-free JSONB storage, Monaco editor views, live integrations (GitHub · Not
 
 ### Cosmos
 **An AI chatbot that lives in your terminal.**
-25+ free models via OpenRouter, cloud-synced history across devices, file attachments, rich Markdown — installable in one command, at home in any tmux pane.
+25+ free models via OpenRouter, cloud-synced chat history across devices, file attachments, rich Markdown output — free forever, installable in one command.
 
 `Node.js` `OpenRouter` `TUI` `Supabase`
 
@@ -64,88 +62,46 @@ Schema-free JSONB storage, Monaco editor views, live integrations (GitHub · Not
 <tr>
 <td width="50%" valign="top">
 
-### Forge `🟡 building`
-**Idea → deployable codebase.**
-Describe the software. Forge plans it, splits it across a dynamic multi-agent asyncio system, and hands back a runnable codebase — all compiled on *your* machine. Zero server cost. Stripe at $9/month after the first free build.
-
-`Tauri v2` `Next.js` `Python asyncio` `OpenRouter` `Supabase`
-
-</td>
-<td width="50%" valign="top">
-
-### Mantle `🟡 building`
-**A personal OS for iOS.**
-Personal productivity rebuilt as one native surface — Liquid Glass components, pure-black dark mode, editorial typography (Gloock / SF Pro / JetBrains Mono). Bring-your-own-key AI woven through the whole app.
-
-`SwiftUI` `iOS 26` `Liquid Glass` `OpenRouter BYOK`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Amoeba `🟡 building`
-**A self-prompting CLI coding agent.**
-You send the *first* prompt. Amoeba writes every prompt after that — reading its own output, deciding the next step, looping until it prints `DONE`. Pure Go, single binary, terminal-native visual identity.
-
-`Go` `OpenRouter` `CLI`
-
-</td>
-<td width="50%" valign="top">
-
 ### Landroid
 **Drone imagery → land intelligence.**
-A FastAPI backend ingests orthomosaic GeoTIFFs and derives NDVI insights, plant-health zone maps, and tree-count estimates for real farmland.
+FastAPI backend ingests orthomosaic GeoTIFFs and derives NDVI-based insights, plant health zone maps, tree count estimations, and overlay PNGs. Supabase + PostGIS for spatial data.
 
-`Flutter` `FastAPI` `PostGIS` `Python`
+`Flutter` `FastAPI` `Python` `Supabase` `PostGIS`
 
 [code](https://github.com/Sharann-del/Landroid)
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Lobe
-**Personal knowledge OS for the web.**
-Rich documents, databases, calendar views, kanban boards — plus a full mind-map of everything you've built.
-
-`React` `TypeScript` `PostgreSQL`
-
-[code](https://github.com/Sharann-del/Lobe)
-
-</td>
-<td width="50%" valign="top">
-
-### Arbor
-**Problem-solving as a tree.**
-Every node is a task or sub-problem. Recurse down, solve, backtrack — structured reasoning you can *see*.
-
-`React` `React Flow` `OpenAI API`
-
-[code](https://github.com/Sharann-del/Arbor)
-
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### Student Dashboard
 **One app instead of five broken portals.**
-Attendance, timetable, and planning for VIT students, consolidated from fragmented institutional systems.
+Unified academic platform for VIT students — attendance tracking, timetable management, and planning tools consolidating fragmented institutional systems into a single interface.
 
-`React` `Node.js` `PostgreSQL`
+`React` `Node.js` `TypeScript` `PostgreSQL`
 
 [code](https://github.com/Sharann-del/Student-Dashboard-WP)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Arbor
+**Problem-solving as a tree.**
+Every node is a task or sub-problem. Recurse down, solve, backtrack — structured reasoning and AI-assisted thinking organized visually with React Flow.
+
+`React` `TypeScript` `React Flow` `OpenAI API`
+
+[code](https://github.com/Sharann-del/Arbor)
 
 </td>
 <td width="50%" valign="top">
 
 ### NotionWidgets
 **Notion databases on your home screen.**
-Native iOS widgets rendered straight from Notion databases, with smart filtering.
+Native iOS app that connects to Notion databases and renders custom home screen widgets — schedules, tasks, academic events. Smart filtering, widget-first design.
 
-`SwiftUI` `WidgetKit` `Notion API`
+`Swift` `SwiftUI` `WidgetKit` `Notion API`
 
 [code](https://github.com/Sharann-del/NotionWidgets)
 
@@ -155,23 +111,23 @@ Native iOS widgets rendered straight from Notion databases, with smart filtering
 <td width="50%" valign="top">
 
 ### Planner
-**Scheduling, deadlines, clean organization.**
-A productivity-focused planner in SwiftUI — prioritization and visual clarity first.
+**Scheduling and focus, native.**
+Productivity-focused planner in SwiftUI — task scheduling, deadlines, prioritization, and clean visual organization for students and developers who want structure without clutter.
 
-`SwiftUI` `Core Data`
+`Swift` `SwiftUI` `Core Data`
 
 [code](https://github.com/Sharann-del/Planner)
 
 </td>
 <td width="50%" valign="top">
 
-### terminaltype
-**MonkeyType, but in the terminal.**
-Real-time WPM and accuracy in a clean TUI. Submitted to Terminal Trove.
+### Lobe
+**Personal knowledge OS for the web.**
+Organize thoughts, projects, and life in one place — rich documents, databases, calendar views, kanban boards, and a full mind map of everything you've built.
 
-`JavaScript` `TUI`
+`TypeScript` `React` `PostgreSQL`
 
-[code](https://github.com/Sharann-del/terminaltype)
+[code](https://github.com/Sharann-del/Lobe)
 
 </td>
 </tr>
@@ -180,21 +136,14 @@ Real-time WPM and accuracy in a clean TUI. Submitted to Terminal Trove.
 
 ### Billing System
 **Full-stack invoicing platform.**
-Dynamic multi-product invoices, automatic totals, reusable templates. Built solo during the GeoPacific Solutions internship. JSONB-based PostgreSQL schema, JWT role-based access across admin/franchise/cashier tiers.
+Dynamic customer sales, multi-product invoices, automatic totals, structured backend storage. JSONB-based PostgreSQL schema, JWT role-based access across admin/franchise/cashier tiers. Built at GeoPacific Solutions.
 
-`Node.js` `TypeScript` `PostgreSQL` `Express`
+`Node.js` `TypeScript` `PostgreSQL` `Express` `Handlebars`
 
 [code](https://github.com/Sharann-del/Billing-System)
 
 </td>
 <td width="50%" valign="top">
-
-### LooBoo
-**Fully autonomous academic agent.**
-Telegram bot + Playwright VTOP scraper + Google APIs + Notion sync + APScheduler. Monitors attendance, assignments, and grades for two students simultaneously — no manual input after setup.
-
-`Python` `Telegram` `Playwright` `Notion API` `SQLite`
-
 </td>
 </tr>
 </table>
@@ -228,31 +177,29 @@ Telegram bot + Playwright VTOP scraper + Google APIs + Notion sync + APScheduler
 ![Timeline](assets/timeline.svg)
 
 ```text
-2026 JUN — NOW    Ericsson · Software Engineer Intern · Chennai
+2025 MAR – JUL   GeoPacific Solutions · Billing System Developer Intern · Chennai
 
-2026 MAY — NOW    SRIP 2026 · AI Hallucination Suppression Research
-                  VIT Chennai · under Dr. Sandhya P
+  + Designed a JSONB-based PostgreSQL schema for flexible product storage and dynamic
+    invoice generation, reducing schema migration overhead.
+  + Built role-based access with JWT authentication — admin, franchise, cashier workflows.
+  + Developed RESTful APIs in Node.js and Express covering invoice lifecycle, inventory
+    updates, and reporting endpoints.
+  + TypeScript-first codebase with type safety across all data models and API contracts.
 
-2025 MAR — JUL   GeoPacific Solutions · Billing System Developer Intern · Chennai
-
-  + Built a full-stack billing & inventory platform from scratch.
-  + JSONB-based PostgreSQL schema → flexible product storage + dynamic invoices.
-  + Role-based access (JWT) across admin / franchise / cashier tiers.
-  + RESTful Node.js + Express APIs — invoice lifecycle, inventory, reporting.
-  + TypeScript-first across every model and API contract.
+2024 – present   VIT Chennai · B.Tech Computer Science · Full-Stack & iOS Track
+                 iSpace Club — Web & App Development department
 ```
 
 ![06 — stack](assets/s06.svg)
 
 ```text
-languages   Swift · TypeScript · JavaScript · Python · Go · Dart · C++
-mobile      SwiftUI · WidgetKit · Core Data · MapKit · Flutter
-web         React · Next.js · Node.js · Express · Tailwind · Vite
-data        PostgreSQL · Supabase · FastAPI · PostGIS · Prisma · SQLite
-ai          MCP · OpenRouter · Anthropic API · asyncio agents · LLM arch
-desktop     Tauri v2
-terminal    Go/Bubble Tea · Python/Textual · blessed · Ghostty · Zellij · Neovim
-tooling     Git · Docker · Figma · Notion · Postman · Starship · pnpm
+languages   Swift · TypeScript · JavaScript · Python · Dart · C++
+mobile      SwiftUI · WidgetKit · Core Data · Flutter
+web         React · Next.js · Node.js · Express · Tailwind
+data        PostgreSQL · Supabase · FastAPI · PostGIS · JSONB
+ai          MCP servers · OpenRouter · OpenAI API · AI-native architectures
+terminal    TUI / CLI · Node.js blessed · keyboard-driven workflows
+tooling     Git · Docker · Figma · Notion · Postman · Neovim
 ```
 
 <br>
@@ -262,9 +209,8 @@ tooling     Git · Docker · Figma · Notion · Postman · Starship · pnpm
 <!--
   ❯ cat /dev/easter-egg
   you read the source. respect.
-  this page is hand-built SVGs sharing one design system:
-  light: #FFFFFF bg · #0D0D0D ink · stepped greys
-  dark:  #000000 bg · #FFFFFF ink · stepped greys
-  fully adaptive via prefers-color-scheme CSS media queries.
+  all SVGs share one design system — fully adaptive via prefers-color-scheme:
+  light: #FFFFFF implicit · #0D0D0D ink · stepped greys
+  dark:  #000000 implicit · #FFFFFF ink · stepped greys
   say hi → sharannmanojkumar@gmail.com
 -->
