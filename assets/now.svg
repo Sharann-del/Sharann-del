@@ -1,0 +1,38 @@
+<svg viewBox="0 0 1000 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Now: SRIP 2026 AI hallucination research, shipping Forge, building Amoeba, open to collaboration">
+  <style>
+    :root { --ink: #0D0D0D; --rule: #D1D1D1; --muted: #444444; --accent: #0D0D0D; --bg: #FFFFFF; --fade-end: #FFFFFF; }
+    @media (prefers-color-scheme: dark) {
+      :root { --ink: #FFFFFF; --rule: #2E2E2E; --muted: #888888; --accent: #FFFFFF; --bg: #000000; --fade-end: #000000; }
+    }
+    .bg { fill: var(--bg); }
+    .mono { font-family: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif; }
+    .belt { animation: belt 36s linear infinite; }
+    @keyframes belt { from { transform: translateX(0); } to { transform: translateX(-1560px); } }
+    .dot { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+    @media (prefers-reduced-motion: reduce) { .belt,.dot { animation: none; } }
+  </style>
+  <rect width="1000" height="64" class="bg"/>
+  <line x1="0" y1="0.5" x2="1000" y2="0.5" stroke="var(--rule)"/>
+  <line x1="0" y1="63.5" x2="1000" y2="63.5" stroke="var(--rule)"/>
+  <g class="belt">
+    <text class="mono" x="60" y="38" font-size="13" letter-spacing="2"><tspan fill="var(--accent)">NOW&#160;&#160;&#9656;&#160;&#160;</tspan><tspan fill="var(--ink)">SRIP 2026 &#8212; AI HALLUCINATION SUPPRESSION RESEARCH @ VIT</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--ink)">SHIPPING FORGE</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--ink)">BUILDING AMOEBA</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--ink)">OPEN TO INTERNSHIPS &amp; COLLABORATION</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan></text>
+    <text class="mono" x="1620" y="38" font-size="13" letter-spacing="2"><tspan fill="var(--accent)">NOW&#160;&#160;&#9656;&#160;&#160;</tspan><tspan fill="var(--ink)">SRIP 2026 &#8212; AI HALLUCINATION SUPPRESSION RESEARCH @ VIT</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--ink)">SHIPPING FORGE</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--ink)">BUILDING AMOEBA</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan fill="var(--ink)">OPEN TO INTERNSHIPS &amp; COLLABORATION</tspan><tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan></text>
+  </g>
+  <defs>
+    <linearGradient id="lm-light" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lm-dark" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#000000" stop-opacity="1"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="fade-light"><rect width="52" height="64" fill="url(#lm-light)"/></mask>
+    <mask id="fade-dark"><rect width="52" height="64" fill="url(#lm-dark)"/></mask>
+  </defs>
+  <rect width="52" height="64" mask="url(#fade-light)" fill="#FFFFFF" class="light-fade"/>
+  <style>.light-fade { display: block; } @media (prefers-color-scheme: dark) { .light-fade { display: none; } .dark-fade { display: block; } } .dark-fade { display: none; }</style>
+  <rect width="52" height="64" mask="url(#fade-dark)" fill="#000000" class="dark-fade"/>
+  <circle class="dot" cx="24" cy="32" r="4" fill="var(--accent)"/>
+</svg>

@@ -1,0 +1,63 @@
+<svg viewBox="0 0 1000 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline: 2024 VIT Chennai begins, 2025 GeoPacific internship and Cosmos launch, 2026 SRIP AI research plus Forge and Amoeba, 2028 the interesting part">
+  <style>
+    :root { --ink: #0D0D0D; --bone: #1A1A1A; --muted: #666666; --dim: #999999; --rule: #D1D1D1; --accent: #0D0D0D; --bg: #FFFFFF; }
+    @media (prefers-color-scheme: dark) { :root { --ink: #FFFFFF; --bone: #EFEFEF; --muted: #888888; --dim: #555555; --rule: #2E2E2E; --accent: #FFFFFF; --bg: #000000; } }
+    .bg { fill: var(--bg); }
+    .mono { font-family: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif; }
+    .serif { font-family: "Inter Display", ui-sans-serif, system-ui, -apple-system, sans-serif; }
+    .axis { stroke: var(--rule); stroke-width: 1; stroke-dasharray: 910; stroke-dashoffset: 910; animation: draw 2.4s cubic-bezier(.6,0,.2,1) forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .m { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity:0;transform:translateY(8px); } to { opacity:1;transform:translateY(0); } }
+    .m1{animation-delay:.4s}.m2{animation-delay:.9s}.m3{animation-delay:1.4s}.m4{animation-delay:1.9s}.m5{animation-delay:2.4s}
+    .pulse { animation: pulse 2.6s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.35; } }
+    .ring { animation: ring 2.6s ease-out infinite; transform-origin: 790px 125px; }
+    @keyframes ring { 0% { transform:scale(.4);opacity:.8; } 80%,100% { transform:scale(3);opacity:0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .axis,.m,.pulse,.ring { animation: none; } .axis { stroke-dashoffset: 0; } .m { opacity: 1; } .ring { opacity: 0; }
+    }
+  </style>
+
+  <rect width="1000" height="250" class="bg"/>
+  <line x1="48" y1="40" x2="952" y2="40" stroke="var(--rule)"/>
+  <text fill="var(--muted)" class="mono" x="48" y="28" font-size="11" letter-spacing="3.5">THE ROUTE SO FAR</text>
+  <text fill="var(--muted)" class="mono" x="952" y="28" font-size="11" letter-spacing="3.5" text-anchor="end">FIG. 03</text>
+
+  <line class="axis" x1="48" y1="125" x2="958" y2="125"/>
+
+  <g class="m m1">
+    <circle cx="130" cy="125" r="4" fill="var(--bone)"/>
+    <line x1="130" y1="121" x2="130" y2="96" stroke="var(--rule)"/>
+    <text fill="var(--accent)" class="mono" x="130" y="74" font-size="11" letter-spacing="2" text-anchor="middle">2024</text>
+    <text fill="var(--bone)" class="mono" x="130" y="90" font-size="10.5" letter-spacing="1" text-anchor="middle">VIT Chennai begins · iSpace Club</text>
+  </g>
+
+  <g class="m m2">
+    <circle cx="350" cy="125" r="4" fill="var(--bone)"/>
+    <line x1="350" y1="129" x2="350" y2="154" stroke="var(--rule)"/>
+    <text fill="var(--accent)" class="mono" x="350" y="172" font-size="11" letter-spacing="2" text-anchor="middle">2025</text>
+    <text fill="var(--bone)" class="mono" x="350" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">GeoPacific — billing platform, solo</text>
+  </g>
+
+  <g class="m m3">
+    <circle cx="570" cy="125" r="4" fill="var(--bone)"/>
+    <line x1="570" y1="121" x2="570" y2="96" stroke="var(--rule)"/>
+    <text fill="var(--accent)" class="mono" x="570" y="74" font-size="11" letter-spacing="2" text-anchor="middle">2025</text>
+    <text fill="var(--bone)" class="mono" x="570" y="90" font-size="10.5" letter-spacing="1" text-anchor="middle">cosmos + terminaltype ship · Kern v1</text>
+  </g>
+
+  <g class="m m4">
+    <circle class="ring" cx="790" cy="125" r="4" stroke="var(--accent)" fill="none"/>
+    <circle class="pulse" cx="790" cy="125" r="4.5" fill="var(--accent)"/>
+    <line x1="790" y1="129" x2="790" y2="154" stroke="var(--rule)"/>
+    <text fill="var(--accent)" class="mono" x="790" y="172" font-size="11" letter-spacing="2" text-anchor="middle">2026 — NOW</text>
+    <text fill="var(--bone)" class="mono" x="790" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">SRIP AI research · Ericsson · forge · amoeba</text>
+  </g>
+
+  <g class="m m5">
+    <circle cx="952" cy="125" r="3" fill="var(--dim)"/>
+    <text fill="var(--dim)" class="mono" x="952" y="105" font-size="10" letter-spacing="2" text-anchor="end">2028 →</text>
+    <text fill="var(--dim)" class="serif" x="952" y="150" font-size="13" font-style="italic" text-anchor="end">the interesting part</text>
+  </g>
+</svg>
