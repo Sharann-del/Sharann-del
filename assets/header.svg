@@ -1,0 +1,94 @@
+<svg viewBox="0 0 1000 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sharann Manojkumar — iOS, full-stack and terminal interface developer">
+  <style>
+    .bone{fill:#EDEAE2}.brass{fill:#C8A84B}.muted{fill:#5C5A54}.dim{fill:#3A3935}
+    .mono{font-family:"SF Mono",ui-monospace,Menlo,Consolas,"Liberation Mono",monospace}
+    .serif{font-family:Georgia,"Iowan Old Style","Times New Roman",serif}
+
+    .draw{stroke-dasharray:1000;stroke-dashoffset:1000;animation:draw 1.4s cubic-bezier(.6,0,.2,1) forwards}
+    .draw.d2{animation-delay:.25s}
+    @keyframes draw{to{stroke-dashoffset:0}}
+
+    .rise{opacity:0;animation:rise .9s cubic-bezier(.2,.7,.2,1) forwards}
+    @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+    .fade{opacity:0;animation:fade .7s ease forwards}
+    @keyframes fade{to{opacity:1}}
+
+    .t-eyebrow{animation-delay:.35s}.t-name{animation-delay:2.15s}
+    .t-comp{animation-delay:2.7s}.t-foot{animation-delay:3.0s}
+    .b1{animation-delay:.9s}.b2{animation-delay:1.25s}.b3{animation-delay:1.6s}.b4{animation-delay:1.95s}
+
+    .c{opacity:0;animation:type .01s step-end forwards}
+    @keyframes type{to{opacity:1}}
+
+    .blink{opacity:0;animation:blinkin .01s step-end .5s forwards,blink 1.1s step-end 2s infinite}
+    @keyframes blinkin{to{opacity:1}}
+    @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+
+    .bar{transform:scaleX(0);transform-origin:700px 0;animation:bar 1.5s cubic-bezier(.6,0,.2,1) 1.1s forwards}
+    @keyframes bar{to{transform:scaleX(1)}}
+
+    .rot{opacity:0;animation:rot 15s linear infinite}
+    .r1{animation-delay:2.7s}.r2{animation-delay:5.7s}.r3{animation-delay:8.7s}.r4{animation-delay:11.7s}.r5{animation-delay:14.7s}
+    @keyframes rot{0%{opacity:0}1.5%{opacity:1}18%{opacity:1}20%{opacity:0}100%{opacity:0}}
+
+    @media (prefers-reduced-motion:reduce){
+      .draw,.rise,.fade,.c,.blink,.rot,.bar{animation:none}
+      .draw{stroke-dashoffset:0}.rise,.fade,.c,.blink{opacity:1}
+      .bar{transform:scaleX(1)}.rot{opacity:0}.rot.r1{opacity:1}
+    }
+  </style>
+
+  <rect width="1000" height="420" fill="#0B0B0D"/>
+  <text class="serif" x="985" y="345" font-size="350" text-anchor="end" font-style="italic" fill="#EDEAE2" opacity="0.032">S</text>
+
+  <!-- top rule + eyebrow -->
+  <line class="draw" x1="48" y1="58" x2="952" y2="58" stroke="#232220"/>
+  <g class="fade t-eyebrow">
+    <text class="muted mono" x="48" y="44" font-size="11" letter-spacing="3.5">PORTFOLIO — INDEX Nº 001</text>
+    <text class="muted mono" x="952" y="44" font-size="11" letter-spacing="3.5" text-anchor="end">CHENNAI, IN — 13.08° N</text>
+  </g>
+
+  <!-- typed command -->
+  <text class="mono" x="48" y="112" font-size="17" letter-spacing="1">
+    <tspan class="brass c" style="animation-delay:.55s">❯</tspan><tspan class="bone c" style="animation-delay:.62s"> </tspan><tspan class="bone c" style="animation-delay:.69s">w</tspan><tspan class="bone c" style="animation-delay:.76s">h</tspan><tspan class="bone c" style="animation-delay:.83s">o</tspan><tspan class="bone c" style="animation-delay:.90s">a</tspan><tspan class="bone c" style="animation-delay:.97s">m</tspan><tspan class="bone c" style="animation-delay:1.04s">i</tspan><tspan class="bone c" style="animation-delay:1.11s"> </tspan><tspan class="muted c" style="animation-delay:1.18s">-</tspan><tspan class="muted c" style="animation-delay:1.25s">-</tspan><tspan class="muted c" style="animation-delay:1.32s">v</tspan><tspan class="muted c" style="animation-delay:1.39s">e</tspan><tspan class="muted c" style="animation-delay:1.46s">r</tspan><tspan class="muted c" style="animation-delay:1.53s">b</tspan><tspan class="muted c" style="animation-delay:1.60s">o</tspan><tspan class="muted c" style="animation-delay:1.67s">s</tspan><tspan class="muted c" style="animation-delay:1.74s">e</tspan><tspan class="brass blink"> ▌</tspan>
+  </text>
+
+  <!-- boot log, right column -->
+  <g font-size="11.5" letter-spacing="1">
+    <text class="mono fade b1" x="700" y="96"><tspan class="dim">▸ loading modules ........ </tspan><tspan class="brass">ok</tspan></text>
+    <text class="mono fade b2" x="700" y="116"><tspan class="dim">▸ mounting ~/projects .... </tspan><tspan class="brass">12</tspan></text>
+    <text class="mono fade b3" x="700" y="136"><tspan class="dim">▸ syncing supabase ....... </tspan><tspan class="brass">ok</tspan></text>
+    <text class="mono fade b4" x="700" y="156"><tspan class="dim">▸ hallucinations ......... </tspan><tspan class="brass">0</tspan></text>
+  </g>
+  <rect x="700" y="168" width="252" height="2" fill="#232220"/>
+  <rect class="bar" x="700" y="168" width="252" height="2" fill="#C8A84B"/>
+
+  <!-- name -->
+  <g class="rise t-name">
+    <text class="bone serif" x="46" y="226" font-size="68" letter-spacing="-1">Sharann Manojkumar<tspan class="brass">.</tspan></text>
+    <text class="muted serif" x="48" y="262" font-size="19" font-style="italic">Where design meets data — built one commit at a time.</text>
+  </g>
+
+  <!-- compiling line -->
+  <g class="fade t-comp">
+    <text class="muted mono" x="48" y="318" font-size="15" letter-spacing="1">currently compiling ▸</text>
+  </g>
+  <g>
+    <text class="brass mono rot r1" x="262" y="318" font-size="15" letter-spacing="1">forge — ideas → deployable codebases</text>
+    <text class="brass mono rot r2" x="262" y="318" font-size="15" letter-spacing="1">amoeba — a CLI agent that prompts itself</text>
+    <text class="brass mono rot r3" x="262" y="318" font-size="15" letter-spacing="1">mantle — a personal OS for iOS</text>
+    <text class="brass mono rot r4" x="262" y="318" font-size="15" letter-spacing="1">kern — keyboard-driven personal data OS</text>
+    <text class="brass mono rot r5" x="262" y="318" font-size="15" letter-spacing="1">cosmos — an AI chatbot in your terminal</text>
+  </g>
+
+  <!-- bottom rule + descriptors -->
+  <line class="draw d2" x1="48" y1="356" x2="952" y2="356" stroke="#232220"/>
+  <g class="fade t-foot">
+    <text class="muted mono" x="48" y="388" font-size="11.5" letter-spacing="3">IOS &amp; SWIFTUI</text>
+    <text class="brass mono" x="248" y="388" font-size="11.5">·</text>
+    <text class="muted mono" x="278" y="388" font-size="11.5" letter-spacing="3">FULL-STACK SYSTEMS</text>
+    <text class="brass mono" x="548" y="388" font-size="11.5">·</text>
+    <text class="muted mono" x="578" y="388" font-size="11.5" letter-spacing="3">TERMINAL INTERFACES</text>
+    <text class="muted mono" x="952" y="388" font-size="11.5" letter-spacing="3" text-anchor="end">VIT — 2024 / 2028</text>
+  </g>
+</svg>
