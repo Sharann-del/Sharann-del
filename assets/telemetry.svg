@@ -1,0 +1,93 @@
+<svg viewBox="0 0 1000 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Telemetry: language distribution, shipping velocity 2024 to 2026, and counters — 12 projects, 4 platforms, 1 open source contribution">
+  <style>
+    .bone{fill:#1A1A1A}.brass{fill:#3B5BDB}.muted{fill:#6B7280}.dim{fill:#9CA3AF}
+    .mono{font-family:"Inter",ui-sans-serif,system-ui,-apple-system,sans-serif}
+    .serif{font-family:"Inter Display",ui-sans-serif,system-ui,-apple-system,sans-serif}
+
+    .bar{transform:scaleX(0);animation:grow 1.2s cubic-bezier(.2,.7,.2,1) forwards}
+    @keyframes grow{to{transform:scaleX(1)}}
+    .g1{transform-origin:48px 0;animation-delay:.3s}
+    .g2{transform-origin:48px 0;animation-delay:.45s}
+    .g3{transform-origin:48px 0;animation-delay:.6s}
+    .g4{transform-origin:48px 0;animation-delay:.75s}
+    .g5{transform-origin:48px 0;animation-delay:.9s}
+    .g6{transform-origin:48px 0;animation-delay:1.05s}
+
+    .spark{stroke-dasharray:700;stroke-dashoffset:700;animation:draw 2.2s cubic-bezier(.6,0,.2,1) .5s forwards}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    .dot{opacity:0;animation:fade .4s ease forwards}
+    .d1{animation-delay:1.0s}.d2{animation-delay:1.3s}.d3{animation-delay:1.6s}.d4{animation-delay:1.9s}.d5{animation-delay:2.2s}.d6{animation-delay:2.5s}
+    @keyframes fade{to{opacity:1}}
+
+    .rise{opacity:0;animation:rise .8s cubic-bezier(.2,.7,.2,1) forwards}
+    @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+    .n1{animation-delay:.5s}.n2{animation-delay:.7s}.n3{animation-delay:.9s}.n4{animation-delay:1.1s}
+
+    .ping{animation:ping 2.2s ease-out infinite;transform-origin:622px 116px}
+    @keyframes ping{0%{transform:scale(.4);opacity:.9}80%,100%{transform:scale(2.8);opacity:0}}
+
+    @media (prefers-reduced-motion:reduce){
+      .bar,.spark,.dot,.rise,.ping{animation:none}
+      .bar{transform:scaleX(1)}.spark{stroke-dashoffset:0}
+      .dot,.rise{opacity:1}.ping{opacity:0}
+    }
+  </style>
+
+  <rect width="1000" height="330" fill="none"/>
+  <line x1="48" y1="40" x2="952" y2="40" stroke="#E5E7EB"/>
+  <text class="muted mono" x="48" y="28" font-size="11" letter-spacing="3.5">TELEMETRY — WHAT THE HANDS ARE DOING</text>
+  <text class="muted mono" x="952" y="28" font-size="11" letter-spacing="3.5" text-anchor="end">FIG. 02</text>
+
+  <!-- column separators -->
+  <line x1="360" y1="64" x2="360" y2="296" stroke="#F3F4F6"/>
+  <line x1="688" y1="64" x2="688" y2="296" stroke="#F3F4F6"/>
+
+  <!-- ===== LEFT: language bars ===== -->
+  <text class="dim mono" x="48" y="78" font-size="10" letter-spacing="2.5">LANGUAGE DISTRIBUTION · EST.</text>
+  <g class="mono" font-size="11">
+    <text class="bone" x="48" y="108">swift</text>        <rect class="bar g1" x="48" y="116" width="238" height="6" fill="#3B5BDB"/><text class="muted" x="296" y="123" font-size="10">28%</text>
+    <text class="bone" x="48" y="146">typescript</text>   <rect class="bar g2" x="48" y="154" width="212" height="6" fill="#374151"/><text class="muted" x="270" y="161" font-size="10">25%</text>
+    <text class="bone" x="48" y="184">python</text>       <rect class="bar g3" x="48" y="192" width="144" height="6" fill="#6B7280"/><text class="muted" x="202" y="199" font-size="10">17%</text>
+    <text class="bone" x="48" y="222">go</text>           <rect class="bar g4" x="48" y="230" width="102" height="6" fill="#9CA3AF"/><text class="muted" x="160" y="237" font-size="10">12%</text>
+    <text class="bone" x="48" y="260">javascript</text>   <rect class="bar g5" x="48" y="268" width="85" height="6" fill="#D1D5DB"/><text class="muted" x="143" y="275" font-size="10">10%</text>
+    <text class="bone" x="48" y="298">dart · c++</text>   <rect class="bar g6" x="48" y="306" width="68" height="6" fill="#E5E7EB"/><text class="muted" x="126" y="313" font-size="10">8%</text>
+  </g>
+
+  <!-- ===== MIDDLE: shipping velocity ===== -->
+  <text class="dim mono" x="392" y="78" font-size="10" letter-spacing="2.5">SHIPPING VELOCITY · 2024 → 2026</text>
+  <g>
+    <line x1="392" y1="252" x2="656" y2="252" stroke="#F3F4F6"/>
+    <polyline class="spark" points="392,236 440,228 488,204 536,196 584,150 622,116 656,96"
+      stroke="#3B5BDB" stroke-width="1.5" fill="none"/>
+    <circle class="dot d1" cx="440" cy="228" r="2.5" fill="#1A1A1A"/>
+    <circle class="dot d2" cx="488" cy="204" r="2.5" fill="#1A1A1A"/>
+    <circle class="dot d3" cx="536" cy="196" r="2.5" fill="#1A1A1A"/>
+    <circle class="dot d4" cx="584" cy="150" r="2.5" fill="#1A1A1A"/>
+    <circle class="ping" cx="622" cy="116" r="4" stroke="#3B5BDB" fill="none"/>
+    <circle class="dot d5" cx="622" cy="116" r="3" fill="#3B5BDB"/>
+    <text class="mono dim" x="392" y="272" font-size="9.5" letter-spacing="1.5">'24</text>
+    <text class="mono dim" x="516" y="272" font-size="9.5" letter-spacing="1.5">'25</text>
+    <text class="mono dim" x="640" y="272" font-size="9.5" letter-spacing="1.5">'26</text>
+    <text class="mono muted dot d6" x="392" y="300" font-size="10" letter-spacing="1.5">trend — <tspan class="brass">accelerating</tspan></text>
+  </g>
+
+  <!-- ===== RIGHT: counters ===== -->
+  <g>
+    <g class="rise n1">
+      <text class="bone serif" x="720" y="118" font-size="44">12</text>
+      <text class="muted mono" x="790" y="112" font-size="10" letter-spacing="2.5">PROJECTS BUILT</text>
+    </g>
+    <g class="rise n2">
+      <text class="bone serif" x="720" y="178" font-size="44">4</text>
+      <text class="muted mono" x="790" y="172" font-size="10" letter-spacing="2.5">PLATFORMS — iOS / WEB / CLI / DESKTOP</text>
+    </g>
+    <g class="rise n3">
+      <text class="bone serif" x="720" y="238" font-size="44">1</text>
+      <text class="muted mono" x="790" y="232" font-size="10" letter-spacing="2.5">OSS CONTRIBUTION — MONKEYTYPE</text>
+    </g>
+    <g class="rise n4">
+      <text class="brass serif" x="718" y="298" font-size="44">∞</text>
+      <text class="muted mono" x="790" y="292" font-size="10" letter-spacing="2.5">TERMINAL TABS OPEN RIGHT NOW</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,137 @@
+<svg viewBox="0 0 1000 660" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="System map of Sharann's projects: terminal tools, web and data platforms, native iOS apps, AI systems and field robotics, all connected to one build pipeline">
+  <style>
+    .bone{fill:#1A1A1A}.brass{fill:#3B5BDB}.muted{fill:#6B7280}.dim{fill:#9CA3AF}
+    .mono{font-family:"Inter",ui-sans-serif,system-ui,-apple-system,sans-serif}
+    .serif{font-family:"Inter Display",ui-sans-serif,system-ui,-apple-system,sans-serif}
+    .node{fill:#101013;stroke:#26241F;stroke-width:1}
+    .nodeC{fill:#15130D;stroke:#3B5BDB;stroke-width:1}
+
+    .wire{stroke:#D1D5DB;stroke-width:1;stroke-dasharray:600;stroke-dashoffset:600;animation:draw 1.6s cubic-bezier(.6,0,.2,1) forwards}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    .w1{animation-delay:.2s}.w2{animation-delay:.32s}.w3{animation-delay:.44s}.w4{animation-delay:.56s}.w5{animation-delay:.68s}
+    .w6{animation-delay:.8s}.w7{animation-delay:.92s}.w8{animation-delay:1.04s}.w9{animation-delay:1.16s}.w10{animation-delay:1.28s}
+
+    .flow{stroke:#3B5BDB;stroke-width:1;opacity:.45;stroke-dasharray:3 9;animation:march 1.4s linear infinite}
+    @keyframes march{to{stroke-dashoffset:-12}}
+
+    .pop{opacity:0;animation:pop .7s cubic-bezier(.2,.7,.2,1) forwards}
+    @keyframes pop{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+    .p0{animation-delay:.1s}.p1{animation-delay:.9s}.p2{animation-delay:1.0s}.p3{animation-delay:1.1s}.p4{animation-delay:1.2s}.p5{animation-delay:1.3s}
+    .p6{animation-delay:1.4s}.p7{animation-delay:1.5s}.p8{animation-delay:1.6s}.p9{animation-delay:1.7s}.p10{animation-delay:1.8s}
+    .p11{animation-delay:2.1s}
+
+    .core{animation:breathe 3.2s ease-in-out infinite}
+    @keyframes breathe{0%,100%{opacity:1}50%{opacity:.55}}
+
+    @media (prefers-reduced-motion:reduce){
+      .wire,.flow,.pop,.core{animation:none}
+      .wire{stroke-dashoffset:0}.pop{opacity:1}.flow{opacity:.3}
+    }
+  </style>
+
+  <rect width="1000" height="660" fill="none"/>
+
+  <!-- frame -->
+  <line x1="48" y1="40" x2="952" y2="40" stroke="#E5E7EB"/>
+  <text class="muted mono" x="48" y="28" font-size="11" letter-spacing="3.5">SYSTEM MAP — EVERYTHING SHIPS FROM ONE PIPELINE</text>
+  <text class="muted mono" x="952" y="28" font-size="11" letter-spacing="3.5" text-anchor="end">FIG. 01</text>
+
+  <!-- ====== wires (base, drawn once) ====== -->
+  <g>
+    <line class="wire w1"  x1="500" y1="320" x2="165" y2="185"/>
+    <line class="wire w2"  x1="500" y1="320" x2="130" y2="320"/>
+    <line class="wire w3"  x1="500" y1="320" x2="175" y2="455"/>
+    <line class="wire w4"  x1="500" y1="320" x2="415" y2="105"/>
+    <line class="wire w5"  x1="500" y1="320" x2="645" y2="135"/>
+    <line class="wire w6"  x1="500" y1="320" x2="845" y2="225"/>
+    <line class="wire w7"  x1="500" y1="320" x2="860" y2="365"/>
+    <line class="wire w8"  x1="500" y1="320" x2="345" y2="535"/>
+    <line class="wire w9"  x1="500" y1="320" x2="565" y2="555"/>
+    <line class="wire w10" x1="500" y1="320" x2="800" y2="505"/>
+  </g>
+  <!-- ====== flow overlay (marching ants, infinite) ====== -->
+  <g>
+    <line class="flow" x1="500" y1="320" x2="165" y2="185"/>
+    <line class="flow" x1="500" y1="320" x2="130" y2="320"/>
+    <line class="flow" x1="500" y1="320" x2="175" y2="455"/>
+    <line class="flow" x1="500" y1="320" x2="415" y2="105"/>
+    <line class="flow" x1="500" y1="320" x2="645" y2="135"/>
+    <line class="flow" x1="500" y1="320" x2="845" y2="225"/>
+    <line class="flow" x1="500" y1="320" x2="860" y2="365"/>
+    <line class="flow" x1="500" y1="320" x2="345" y2="535"/>
+    <line class="flow" x1="500" y1="320" x2="565" y2="555"/>
+    <line class="flow" x1="500" y1="320" x2="800" y2="505"/>
+  </g>
+
+  <!-- ====== cluster labels ====== -->
+  <text class="brass mono pop p11" x="95"  y="130" font-size="10" letter-spacing="3">TERMINAL</text>
+  <text class="brass mono pop p11" x="370" y="62"  font-size="10" letter-spacing="3">WEB &amp; DATA</text>
+  <text class="brass mono pop p11" x="845" y="172" font-size="10" letter-spacing="3" text-anchor="middle">iOS NATIVE</text>
+  <text class="brass mono pop p11" x="300" y="612" font-size="10" letter-spacing="3">AI SYSTEMS</text>
+  <text class="brass mono pop p11" x="800" y="582" font-size="10" letter-spacing="3" text-anchor="middle">FIELD ROBOTICS</text>
+
+  <!-- ====== center core ====== -->
+  <g class="pop p0">
+    <rect class="nodeC"  x="405" y="292" width="190" height="56" rx="2"/>
+    <circle class="core" cx="423" cy="320" r="3.5" fill="#3B5BDB"/>
+    <text class="bone mono" x="438" y="316" font-size="13" letter-spacing="2">SHARANN.SYS</text>
+    <text class="muted mono" x="438" y="334" font-size="9.5" letter-spacing="1.5">one-person build pipeline</text>
+  </g>
+
+  <!-- ====== nodes ====== -->
+  <g class="pop p1">
+    <rect class="node" x="90" y="162" width="150" height="46" rx="2"/>
+    <text class="bone mono" x="104" y="182" font-size="12" letter-spacing="1">cosmos</text>
+    <text class="muted mono" x="104" y="198" font-size="9" letter-spacing="1">AI chat · 25+ models</text>
+  </g>
+  <g class="pop p2">
+    <rect class="node" x="55" y="297" width="150" height="46" rx="2"/>
+    <text class="bone mono" x="69" y="317" font-size="12" letter-spacing="1">terminaltype</text>
+    <text class="muted mono" x="69" y="333" font-size="9" letter-spacing="1">typing test · live WPM</text>
+  </g>
+  <g class="pop p3">
+    <rect class="node" x="100" y="432" width="150" height="46" rx="2"/>
+    <text class="bone mono" x="114" y="452" font-size="12" letter-spacing="1">amoeba <tspan class="brass">●</tspan></text>
+    <text class="muted mono" x="114" y="468" font-size="9" letter-spacing="1">self-prompting agent</text>
+  </g>
+  <g class="pop p4">
+    <rect class="node" x="340" y="82" width="150" height="46" rx="2"/>
+    <text class="bone mono" x="354" y="102" font-size="12" letter-spacing="1">kern</text>
+    <text class="muted mono" x="354" y="118" font-size="9" letter-spacing="1">data OS · MCP server</text>
+  </g>
+  <g class="pop p5">
+    <rect class="node" x="570" y="112" width="150" height="46" rx="2"/>
+    <text class="bone mono" x="584" y="132" font-size="12" letter-spacing="1">lobe</text>
+    <text class="muted mono" x="584" y="148" font-size="9" letter-spacing="1">knowledge OS · web</text>
+  </g>
+  <g class="pop p6">
+    <rect class="node" x="770" y="202" width="150" height="46" rx="2"/>
+    <text class="bone mono" x="784" y="222" font-size="12" letter-spacing="1">mantle <tspan class="brass">●</tspan></text>
+    <text class="muted mono" x="784" y="238" font-size="9" letter-spacing="1">personal OS · iOS 26</text>
+  </g>
+  <g class="pop p7">
+    <rect class="node" x="785" y="342" width="150" height="46" rx="2"/>
+    <text class="bone mono" x="799" y="362" font-size="12" letter-spacing="1">notionwidgets</text>
+    <text class="muted mono" x="799" y="378" font-size="9" letter-spacing="1">WidgetKit · Notion API</text>
+  </g>
+  <g class="pop p8">
+    <rect class="node" x="270" y="512" width="150" height="46" rx="2"/>
+    <text class="bone mono" x="284" y="532" font-size="12" letter-spacing="1">forge <tspan class="brass">●</tspan></text>
+    <text class="muted mono" x="284" y="548" font-size="9" letter-spacing="1">idea → codebase</text>
+  </g>
+  <g class="pop p9">
+    <rect class="node" x="490" y="532" width="150" height="46" rx="2"/>
+    <text class="bone mono" x="504" y="552" font-size="12" letter-spacing="1">arbor</text>
+    <text class="muted mono" x="504" y="568" font-size="9" letter-spacing="1">reasoning trees</text>
+  </g>
+  <g class="pop p10">
+    <rect class="node" x="725" y="482" width="150" height="46" rx="2"/>
+    <text class="bone mono" x="739" y="502" font-size="12" letter-spacing="1">landroid</text>
+    <text class="muted mono" x="739" y="518" font-size="9" letter-spacing="1">drone NDVI · GeoTIFF</text>
+  </g>
+
+  <!-- legend -->
+  <line x1="48" y1="630" x2="952" y2="630" stroke="#E5E7EB"/>
+  <text class="dim mono" x="48" y="652" font-size="10" letter-spacing="2"><tspan class="brass">●</tspan> IN ACTIVE DEVELOPMENT</text>
+  <text class="dim mono" x="952" y="652" font-size="10" letter-spacing="2" text-anchor="end">DASHED LINES — DATA IN MOTION</text>
+</svg>

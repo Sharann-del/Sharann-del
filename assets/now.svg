@@ -1,0 +1,28 @@
+<svg viewBox="0 0 1000 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Now: SRIP 2026 AI hallucination research, shipping Forge, building Amoeba, open to collaboration">
+  <style>
+    .mono{font-family:"Inter",ui-sans-serif,system-ui,-apple-system,sans-serif}
+    .bone{fill:#1A1A1A}.brass{fill:#3B5BDB}
+    .belt{animation:belt 36s linear infinite}
+    @keyframes belt{from{transform:translateX(0)}to{transform:translateX(-1560px)}}
+    .dot{animation:pulse 2.4s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+    @media (prefers-reduced-motion:reduce){.belt,.dot{animation:none}}
+  </style>
+  <rect width="1000" height="64" fill="none"/>
+  <line x1="0" y1="0.5" x2="1000" y2="0.5" stroke="#E5E7EB"/>
+  <line x1="0" y1="63.5" x2="1000" y2="63.5" stroke="#E5E7EB"/>
+  <g class="belt">
+    <text class="mono" x="60" y="38" font-size="13" letter-spacing="2"><tspan class="brass">NOW&#160;&#160;&#9656;&#160;&#160;</tspan><tspan class="bone">SRIP 2026 &#8212; AI HALLUCINATION SUPPRESSION RESEARCH @ VIT</tspan><tspan class="brass">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan class="bone">SHIPPING FORGE</tspan><tspan class="brass">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan class="bone">BUILDING AMOEBA</tspan><tspan class="brass">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan class="bone">OPEN TO INTERNSHIPS &amp; COLLABORATION</tspan><tspan class="brass">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan></text>
+    <text class="mono" x="1620" y="38" font-size="13" letter-spacing="2"><tspan class="brass">NOW&#160;&#160;&#9656;&#160;&#160;</tspan><tspan class="bone">SRIP 2026 &#8212; AI HALLUCINATION SUPPRESSION RESEARCH @ VIT</tspan><tspan class="brass">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan class="bone">SHIPPING FORGE</tspan><tspan class="brass">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan class="bone">BUILDING AMOEBA</tspan><tspan class="brass">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan><tspan class="bone">OPEN TO INTERNSHIPS &amp; COLLABORATION</tspan><tspan class="brass">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan></text>
+  </g>
+  
+  <defs>
+    <linearGradient id="lm" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="white" stop-opacity="1"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="fade"><rect width="52" height="64" fill="url(#lm)"/></mask>
+  </defs>
+  <rect width="52" height="64" mask="url(#fade)" fill="white"/>
+  <circle class="dot" cx="24" cy="32" r="4" fill="#3B5BDB"/>
+</svg>
