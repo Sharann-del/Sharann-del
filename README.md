@@ -26,7 +26,7 @@ clubs     iSpace Club — Web & App Development department
 
 Fifteen projects, four platforms, one pipeline. Every node is a real, working system.
 
-![System map](assets/ecosystem.svg)
+![System Map](assets/ecosystem.svg)
 
 ![now](assets/now.svg)
 
