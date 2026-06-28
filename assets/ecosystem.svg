@@ -1,18 +1,18 @@
 <svg viewBox="0 0 1000 680" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="System map: terminal tools, web and data platforms, iOS apps, research, all from one pipeline">
   <style>
     :root {
-      --bone: #1A1A1A; --muted: #666666; --dim: #999999; --rule: #D1D1D1;
-      --node-bg: #F7F7F7; --node-bd: #E0E0E0; --core-bg: #EFEFEF; --core-bd: #0D0D0D; --accent: #0D0D0D;
+      --bone: #444444; --muted: #888888; --dim: #AAAAAA; --rule: #C0C0C0;
+      --node-bg: #F0F0F0; --core-bg: #E8E8E8; --accent: #555555;
     }
     @media (prefers-color-scheme: dark) {
       :root {
-        --bone: #EFEFEF; --muted: #AAAAAA; --dim: #777777; --rule: #3C3C3C;
-        --node-bg: #111111; --node-bd: #3A3A3A; --core-bg: #1A1A1A; --core-bd: #FFFFFF; --accent: #FFFFFF;
+        --bone: #DDDDDD; --muted: #777777; --dim: #666666; --rule: #444444;
+        --node-bg: #1A1A1A; --core-bg: #222222; --accent: #AAAAAA;
       }
     }
     .mono { font-family: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif; }
-    .node { fill: var(--node-bg); stroke: var(--node-bd); stroke-width: 1; }
-    .nodeC { fill: var(--core-bg); stroke: var(--core-bd); stroke-width: 1.5; }
+    .node { fill: var(--node-bg); }
+    .nodeC { fill: var(--core-bg); }
     .wire { stroke: var(--rule); stroke-width: 1; stroke-dasharray: 500; stroke-dashoffset: 500; animation: draw 1.6s cubic-bezier(.6,0,.2,1) forwards; }
     @keyframes draw { to { stroke-dashoffset: 0; } }
     .w1{animation-delay:.2s}.w2{animation-delay:.32s}.w3{animation-delay:.44s}.w4{animation-delay:.56s}.w5{animation-delay:.68s}.w6{animation-delay:.8s}.w7{animation-delay:.92s}.w8{animation-delay:1.04s}.w9{animation-delay:1.16s}

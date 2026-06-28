@@ -1,7 +1,7 @@
 <svg viewBox="0 0 1000 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Now: third-year CS student at VIT Chennai, building full-stack and iOS apps, open to internships">
   <style>
-    :root { --bone: #1A1A1A; --rule: #D1D1D1; --accent: #0D0D0D; }
-    @media (prefers-color-scheme: dark) { :root { --bone: #EFEFEF; --rule: #3C3C3C; --accent: #FFFFFF; } }
+    :root { --bone: #444444; --rule: #C0C0C0; --accent: #555555; }
+    @media (prefers-color-scheme: dark) { :root { --bone: #DDDDDD; --rule: #444444; --accent: #AAAAAA; } }
     .mono { font-family: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif; }
     .belt { animation: belt 36s linear infinite; }
     @keyframes belt { from{transform:translateX(0)} to{transform:translateX(-1560px)} }
