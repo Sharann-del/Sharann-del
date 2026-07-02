@@ -5,9 +5,9 @@
     .mono { font-family:ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,"Liberation Mono",monospace; }
     .row { opacity:0; animation:reveal .55s cubic-bezier(.2,.7,.2,1) forwards; }
     .rule { stroke:var(--ink); stroke-width:1; }
-    .title { fill:var(--ink); font-size:15px; font-weight:700; letter-spacing:.8px; }
-    .copy { fill:var(--ink); font-size:11px; }
-    .meta { fill:var(--ink); font-size:10px; letter-spacing:.4px; }
+    .title { fill:var(--ink); font-size:17px; font-weight:700; letter-spacing:.8px; }
+    .copy { fill:var(--ink); font-size:12px; }
+    .meta { fill:var(--ink); font-size:11px; letter-spacing:.4px; }
     @keyframes reveal { from { opacity:0; } to { opacity:1; } }
     .r1{animation-delay:.05s}.r2{animation-delay:.10s}.r3{animation-delay:.15s}.r4{animation-delay:.20s}.r5{animation-delay:.25s}
     .r6{animation-delay:.30s}.r7{animation-delay:.35s}.r8{animation-delay:.40s}.r9{animation-delay:.45s}.r10{animation-delay:.50s}
